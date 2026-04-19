@@ -4,3 +4,4 @@ backend/.env
 frontend/.env
 frontend/dist
 .DS_Store
+db-creds
