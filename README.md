@@ -377,16 +377,13 @@ College-Alumni-Networking-Mentorship-Platform/
 ## 📸 Screenshots
 
 ### Login Page
-
-(Add screenshot here)
+![Login Page](./screenshots/login-page.png)
 
 ### Dashboard
-
-(Add screenshot here)
+![Dashboard](./screenshots/dashboard.png)
 
 ### Alumni Profile Page
-
-(Add screenshot here)
+![Alumni Profile](./screenshots/alumni-profile.png)
 
 ---
 
