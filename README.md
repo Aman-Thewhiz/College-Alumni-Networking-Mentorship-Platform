@@ -1,15 +1,16 @@
 <div align="center">
 
 # 🎓 AlumniConnect
+
 ### College Alumni Networking & Mentorship Platform
 
 *Bridging the gap between students and alumni — one mentorship at a time.*
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-98.5%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://mongodb.com/)
-[![Express](https://img.shields.io/badge/Express.js-API-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-98.5%25-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square\&logo=react\&logoColor=black)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat-square\&logo=node.js\&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=flat-square\&logo=mongodb\&logoColor=white)](https://mongodb.com/)
+[![Express](https://img.shields.io/badge/Express.js-API-000000?style=flat-square\&logo=express\&logoColor=white)](https://expressjs.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 [Report a Bug](../../issues) · [Request a Feature](../../issues)
@@ -20,21 +21,25 @@
 
 ## 📖 Table of Contents
 
-- [About the Project](#-about-the-project)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-  - [Running the App](#running-the-app)
-- [User Roles](#-user-roles)
-- [API Reference](#-api-reference)
-- [Database Schema](#-database-schema)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
+* [About the Project](#-about-the-project)
+* [Features](#-features)
+* [Tech Stack](#-tech-stack)
+* [Architecture](#-architecture)
+* [Getting Started](#-getting-started)
+
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Environment Variables](#environment-variables)
+  * [Running the App](#running-the-app)
+* [User Roles](#-user-roles)
+* [API Reference](#-api-reference)
+* [Database Schema](#-database-schema)
+* [Project Structure](#-project-structure)
+* [Screenshots](#-screenshots)
+* [Project Demo Videos](#-project-demo-videos)
+* [Future Scope](#-future-scope)
+* [Contributing](#-contributing)
+* [License](#-license)
 
 ---
 
@@ -46,93 +51,103 @@ The platform eliminates the problem of scattered, unorganized alumni networks on
 
 ### 💡 Problem It Solves
 
-| Problem | Solution |
-|---|---|
-| No structured way for students to reach alumni | Role-based mentorship request system |
-| Alumni networks scattered across social media | Centralized searchable alumni directory |
-| Limited access to career opportunities | Dedicated job & internship board |
-| No real-time communication channel | Built-in messaging between connected users |
-| No platform oversight | Admin dashboard for moderation |
+| Problem                                        | Solution                                   |
+| ---------------------------------------------- | ------------------------------------------ |
+| No structured way for students to reach alumni | Role-based mentorship request system       |
+| Alumni networks scattered across social media  | Centralized searchable alumni directory    |
+| Limited access to career opportunities         | Dedicated job & internship board           |
+| No real-time communication channel             | Built-in messaging between connected users |
+| No platform oversight                          | Admin dashboard for moderation             |
 
 ---
 
 ## ✨ Features
 
 ### 🔐 Authentication
-- Secure signup and login with **JWT authentication**
-- Role-based access control — Student, Alumni, Administrator
-- Password hashing with **bcrypt**
-- Auto session expiry with graceful logout
+
+* Secure signup and login with **JWT authentication**
+* Role-based access control — Student, Alumni, Administrator
+* Password hashing with **bcrypt**
+* Auto session expiry with graceful logout
 
 ### 👤 Profiles
-- Detailed professional profiles with skills, industry, experience, and bio
-- Skill tags, company, graduation year, and profile photo
-- Public alumni profile pages for student discovery
+
+* Detailed professional profiles with skills, industry, experience, and bio
+* Skill tags, company, graduation year, and profile photo
+* Public alumni profile pages for student discovery
 
 ### 🔍 Alumni Discovery
-- Browse and search alumni by name, industry, and skills
-- Filter combinations with real-time results
-- Paginated card grid with clean, modern UI
+
+* Browse and search alumni by name, industry, and skills
+* Filter combinations with real-time results
+* Paginated card grid with clean, modern UI
 
 ### 🤝 Mentorship System
-- Students send mentorship requests with a personal message
-- Alumni accept or reject requests
-- Full status tracking — Pending / Accepted / Rejected
-- Mentorship history for both parties
+
+* Students send mentorship requests with a personal message
+* Alumni accept or reject requests
+* Full status tracking — Pending / Accepted / Rejected
+* Mentorship history for both parties
 
 ### 💬 Messaging
-- In-platform messaging between connected (accepted mentorship) users
-- Conversation list + chat window interface
-- Auto-refreshing with message polling
+
+* In-platform messaging between connected (accepted mentorship) users
+* Conversation list + chat window interface
+* Auto-refreshing with message polling
 
 ### 💼 Opportunity Board
-- Alumni post job and internship opportunities
-- Students browse and filter by type (Job / Internship)
-- Direct link to posting alumni's profile
+
+* Alumni post job and internship opportunities
+* Students browse and filter by type (Job / Internship)
+* Direct link to posting alumni's profile
 
 ### 🛠️ Admin Dashboard
-- Platform-wide analytics (users, requests, opportunities)
-- User management with role filtering
-- Delete users with cascading data cleanup
+
+* Platform-wide analytics (users, requests, opportunities)
+* User management with role filtering
+* Delete users with cascading data cleanup
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Frontend
-| Technology | Purpose |
-|---|---|
-| React.js | UI framework |
-| Chakra UI | Component library & theming |
-| React Router | Client-side routing |
-| Axios | HTTP client with interceptors |
-| React Context API | Global auth state management |
+
+| Technology        | Purpose                       |
+| ----------------- | ----------------------------- |
+| React.js          | UI framework                  |
+| Chakra UI         | Component library & theming   |
+| React Router      | Client-side routing           |
+| Axios             | HTTP client with interceptors |
+| React Context API | Global auth state management  |
 
 ### Backend
-| Technology | Purpose |
-|---|---|
-| Node.js | Runtime environment |
-| Express.js | REST API framework |
-| JSON Web Tokens (JWT) | Authentication |
-| Bcrypt | Password hashing |
-| Mongoose | MongoDB ODM |
+
+| Technology            | Purpose             |
+| --------------------- | ------------------- |
+| Node.js               | Runtime environment |
+| Express.js            | REST API framework  |
+| JSON Web Tokens (JWT) | Authentication      |
+| Bcrypt                | Password hashing    |
+| Mongoose              | MongoDB ODM         |
 
 ### Database & Tools
-| Technology | Purpose |
-|---|---|
-| MongoDB | NoSQL database |
-| Git & GitHub | Version control |
-| Postman | API testing |
-| VS Code | Development environment |
+
+| Technology   | Purpose                 |
+| ------------ | ----------------------- |
+| MongoDB      | NoSQL database          |
+| Git & GitHub | Version control         |
+| Postman      | API testing             |
+| VS Code      | Development environment |
 
 ---
 
 ## 🏗 Architecture
 
-```
+```text
 ┌────────────────────────────────────────────┐
 │              React Frontend                │
-│   (Chakra UI · React Router · Axios)       │
+│   (React · Vite · Axios · Context API)    │
 └──────────────────┬─────────────────────────┘
                    │ REST API (HTTP)
 ┌──────────────────▼─────────────────────────┐
@@ -142,12 +157,10 @@ The platform eliminates the problem of scattered, unorganized alumni networks on
                    │ Mongoose ODM
 ┌──────────────────▼─────────────────────────┐
 │               MongoDB Atlas                │
-│  users · mentorshipRequests · messages     │
-│  opportunities                             │
+│ users · mentorshipRequests · messages      │
+│ opportunities                              │
 └────────────────────────────────────────────┘
 ```
-
-**Service layers:** Profile Access · Mentorship Services · Messaging · Opportunity Services · Networking Services
 
 ---
 
@@ -157,184 +170,173 @@ The platform eliminates the problem of scattered, unorganized alumni networks on
 
 Make sure you have the following installed:
 
-- **Node.js** v18+ → [Download](https://nodejs.org/)
-- **npm** v9+ (bundled with Node.js)
-- **MongoDB** — local or a free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster
-- **Git** → [Download](https://git-scm.com/)
+* **Node.js**
+* **npm**
+* **MongoDB**
+* **Git**
 
 ---
 
 ### Installation
 
-**1. Clone the repository**
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Aman-Thewhiz/College-Alumni-Networking-Mentorship-Platform.git
 cd College-Alumni-Networking-Mentorship-Platform
 ```
 
-**2. Install Backend dependencies**
+---
+
+### 2. Backend Setup
+
 ```bash
 cd backend
 npm install
+npm run dev
 ```
 
-**3. Install Frontend dependencies**
+---
+
+### 3. Frontend Setup
+
 ```bash
-cd ../frontend
+cd frontend
 npm install
+npm run dev
 ```
 
 ---
 
 ### Environment Variables
 
-**Backend** — create a `.env` file inside the `/backend` folder:
+### Backend `.env`
+
+Create a `.env` file inside the `/backend` folder:
 
 ```env
-# Server
 PORT=5000
-
-# MongoDB
 MONGO_URI=your_mongodb_connection_string_here
-
-# JWT
 JWT_SECRET=your_super_secret_jwt_key_here
 JWT_EXPIRES_IN=7d
-
-# Environment
 NODE_ENV=development
 ```
 
-**Frontend** — create a `.env` file inside the `/frontend` folder:
+---
+
+### Frontend `.env`
+
+Create a `.env` file inside the `/frontend` folder:
 
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
-> ⚠️ Never commit your `.env` files. They are already listed in `.gitignore`. Use `.env.example` as the reference template.
+> ⚠️ Never upload `.env` files or credentials to GitHub. Use `.env.example` as the template.
 
 ---
 
 ### Running the App
 
-**Start the Backend**
+### Start Backend
+
 ```bash
 cd backend
 npm run dev
 ```
-> Runs on `http://localhost:5000`
 
-**Start the Frontend** *(in a new terminal)*
+Runs on: `http://localhost:5000`
+
+---
+
+### Start Frontend
+
 ```bash
 cd frontend
 npm run dev
 ```
-> Runs on `http://localhost:5173`
 
----
-
-### Creating an Admin Account
-
-Admin accounts must be set manually in the database. After registering a user normally, open MongoDB Compass or Atlas and update their `role` field:
-
-```json
-{ "email": "admin@example.com", "role": "Admin" }
-```
+Runs on: `http://localhost:5173`
 
 ---
 
 ## 👥 User Roles
 
-| Role | Capabilities |
-|---|---|
+| Role        | Capabilities                                                                 |
+| ----------- | ---------------------------------------------------------------------------- |
 | **Student** | Browse alumni, send mentorship requests, view opportunities, message mentors |
-| **Alumni** | Accept/reject mentorship requests, post opportunities, message students |
-| **Admin** | View all users, manage accounts, view platform analytics |
+| **Alumni**  | Accept/reject mentorship requests, post opportunities, message students      |
+| **Admin**   | View all users, manage accounts, view platform analytics                     |
 
 ---
 
 ## 📡 API Reference
 
 ### Auth Routes
-| Method | Endpoint | Access | Description |
-|---|---|---|---|
-| `POST` | `/api/auth/register` | Public | Register a new user |
-| `POST` | `/api/auth/login` | Public | Login and receive JWT |
-| `GET` | `/api/auth/me` | Protected | Get logged-in user |
 
-### User Routes
-| Method | Endpoint | Access | Description |
-|---|---|---|---|
-| `GET` | `/api/users` | Public | Get alumni list (filterable) |
-| `GET` | `/api/users/:id` | Public | Get a user's public profile |
-| `PUT` | `/api/users/:id` | Protected | Update own profile |
+| Method | Endpoint             | Description           |
+| ------ | -------------------- | --------------------- |
+| POST   | `/api/auth/register` | Register a new user   |
+| POST   | `/api/auth/login`    | Login and receive JWT |
+| GET    | `/api/auth/me`       | Get logged-in user    |
 
 ### Mentorship Routes
-| Method | Endpoint | Access | Description |
-|---|---|---|---|
-| `POST` | `/api/mentorship` | Student | Send a mentorship request |
-| `GET` | `/api/mentorship/sent` | Student | Get sent requests |
-| `GET` | `/api/mentorship/received` | Alumni | Get incoming requests |
-| `PUT` | `/api/mentorship/:id` | Alumni | Accept or reject a request |
+
+| Method | Endpoint                   | Description              |
+| ------ | -------------------------- | ------------------------ |
+| POST   | `/api/mentorship`          | Send mentorship request  |
+| GET    | `/api/mentorship/sent`     | Get sent requests        |
+| GET    | `/api/mentorship/received` | Get received requests    |
+| PUT    | `/api/mentorship/:id`      | Accept or reject request |
 
 ### Opportunity Routes
-| Method | Endpoint | Access | Description |
-|---|---|---|---|
-| `GET` | `/api/opportunities` | Public | Browse all opportunities |
-| `POST` | `/api/opportunities` | Alumni | Post a new opportunity |
-| `DELETE` | `/api/opportunities/:id` | Alumni / Admin | Delete an opportunity |
 
-### Message Routes
-| Method | Endpoint | Access | Description |
-|---|---|---|---|
-| `GET` | `/api/messages/:userId` | Protected | Get conversation with a user |
-| `POST` | `/api/messages` | Protected | Send a message |
-
-### Admin Routes
-| Method | Endpoint | Access | Description |
-|---|---|---|---|
-| `GET` | `/api/admin/users` | Admin | Get all users |
-| `DELETE` | `/api/admin/users/:id` | Admin | Delete a user |
-| `GET` | `/api/admin/stats` | Admin | Get platform statistics |
+| Method | Endpoint                 | Description          |
+| ------ | ------------------------ | -------------------- |
+| GET    | `/api/opportunities`     | Browse opportunities |
+| POST   | `/api/opportunities`     | Post new opportunity |
+| DELETE | `/api/opportunities/:id` | Delete opportunity   |
 
 ---
 
 ## 🗃️ Database Schema
 
 ### Users
+
 ```js
 {
-  name: String, email: String (unique), password: String (hashed),
+  name: String,
+  email: String,
+  password: String,
   role: "Student" | "Alumni" | "Admin",
-  bio: String, skills: [String], industry: String,
-  graduationYear: Number, company: String,
-  experience: String, profilePhoto: String, createdAt: Date
+  bio: String,
+  skills: [String],
+  industry: String,
+  graduationYear: Number,
+  company: String
 }
 ```
 
-### MentorshipRequests
+### Mentorship Requests
+
 ```js
 {
-  studentId: ObjectId (ref: User), alumniId: ObjectId (ref: User),
-  message: String, status: "pending" | "accepted" | "rejected",
-  requestedAt: Date
+  studentId: ObjectId,
+  alumniId: ObjectId,
+  message: String,
+  status: "pending" | "accepted" | "rejected"
 }
 ```
 
 ### Opportunities
-```js
-{
-  title: String, description: String, company: String,
-  type: "job" | "internship",
-  postedBy: ObjectId (ref: User), createdAt: Date
-}
-```
 
-### Messages
 ```js
 {
-  senderId: ObjectId (ref: User), receiverId: ObjectId (ref: User),
-  content: String, sentAt: Date
+  title: String,
+  description: String,
+  company: String,
+  type: "job" | "internship",
+  postedBy: ObjectId
 }
 ```
 
@@ -342,32 +344,71 @@ Admin accounts must be set manually in the database. After registering a user no
 
 ## 📁 Project Structure
 
-```
+```text
 College-Alumni-Networking-Mentorship-Platform/
 │
 ├── backend/
-│   ├── config/          # Database connection
-│   ├── controllers/     # Route handler logic
-│   ├── middleware/      # Auth & role guards
-│   ├── models/          # Mongoose schemas
-│   ├── routes/          # Express route definitions
-│   ├── .env             # Environment variables (not committed)
-│   └── server.js        # Entry point
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── utils/
+│   │   ├── app.js
+│   │   └── server.js
+│   │
+│   ├── package.json
+│   └── .env.example
 │
 ├── frontend/
-│   ├── public/          # Static assets
-│   └── src/
-│       ├── api/         # Axios instance & API calls
-│       ├── components/  # Reusable UI components
-│       ├── context/     # Auth context provider
-│       ├── pages/       # Route-level page components
-│       ├── theme/       # Chakra UI custom theme
-│       └── main.jsx     # App entry point
+│   ├── src/
+│   ├── package.json
+│   └── .env.example
 │
-├── .env.example         # Environment variable template
+├── README.md
 ├── .gitignore
-└── README.md
+├── Project_Overview.mp4
+└── Code_explanation.mp4
 ```
+
+---
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](./screenshots/login-page.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Alumni Profile Page
+![Alumni Profile](./screenshots/alumni-profile.png)
+
+---
+
+## 🎥 Project Demo Videos
+
+* [Project Overview Video](./Project_Overview.mp4)
+* [Code Explanation Video](./Code_explanation.mp4)
+
+These videos include:
+
+* Full project walkthrough
+* Feature explanation
+* Backend code explanation
+* Complete system flow
+
+---
+
+## 🚀 Future Scope
+
+* Real-time Chat System
+* AI-based Mentor Recommendation
+* Resume Review System
+* Alumni Job Referral System
+* Video Calling for Mentorship Sessions
+* Placement Tracking Dashboard
 
 ---
 
@@ -375,24 +416,24 @@ College-Alumni-Networking-Mentorship-Platform/
 
 Contributions are welcome!
 
-1. **Fork** the repository
-2. **Create** your branch: `git checkout -b feature/your-feature-name`
-3. **Commit** your changes: `git commit -m 'Add some feature'`
-4. **Push** to your branch: `git push origin feature/your-feature-name`
-5. **Open** a Pull Request
+1. Fork the repository
+2. Create your branch: `git checkout -b feature/your-feature-name`
+3. Commit changes: `git commit -m "Add your feature"`
+4. Push to your branch
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 ---
 
 <div align="center">
 
-Made with ❤️ by [Aman Kumar](https://github.com/Aman-Thewhiz)
+Made with ❤️ by **Aman Kumar**
 
-⭐ **Star this repo if you found it useful!**
+⭐ Star this repo if you found it useful!
 
 </div>
